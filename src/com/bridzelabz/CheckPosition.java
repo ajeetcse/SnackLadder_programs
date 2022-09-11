@@ -8,7 +8,7 @@ public class CheckPosition {
       //  System.out.println("Snack and ladder ");
         int Player_Start_Position = 0;
         int number_After_Rolling = (int)Math.floor(Math.random()*10)%6+1;
-        System.out.println("Number of rolling after dice the player ");
+        System.out.println("Number of rolling after dice the player "+Player_Start_Position);
         int checkOption = (int)Math.floor(Math.random()*10) % 3 + 1;
         switch (checkOption){
             case No_Play:
